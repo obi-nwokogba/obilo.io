@@ -5,10 +5,10 @@
     --brand-purple: #7F3FEF;
     --brand-darkbrown: #191D21;
     --brand-midbrown: #394145;
-    --midlight-color: #90D4F5;
+    --midlight-color: #363636;
     --lightest-color: #E8F6FD;
     --lightgray: #EAEFF1;
-    --hyperlinkColor:;
+    --generaltextcolor: #454544;
 }
 html {
     box-sizing: border-box;
@@ -16,29 +16,27 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
-a{
-    color:var(--hyperlinkcolor);
+a {
+    color: var(--hyperlinkcolor);
 }
 body {
     color: var(--darkest-color);
     font-family: 'Manrope', helvetica, helvetica neue, Segoe UI, sans-serif;
     font-weight: 100 !important;
-    background: #191D21;
-    color: var(--midlight-color);
+    background: #F8F8F6;
+    color: var(--generaltextcolor);
     text-align: left;
     margin: auto;
+    font-size: 21px;
 }
-
 .mainSiteBrand {
-    margin-top: 60px;
+    margin-top: 50px;
     color: White;
     display: block;
-    color:#2199EB;
-    font-weight:100;
-    font-size:83px;
+    color: #2199EB;
+    font-weight: 700;
+    font-size: 2em;
 }
-
 .panelOne {
     border: solid 3px var(--middark-color);
     padding: 15px;
@@ -72,7 +70,39 @@ searchelement {
     border: solid 1px rgba(255, 255, 255, 0.2);
     padding: 15px;
     font-size: 1.1em;
-    color: #E8F6FD;
+    color: #2B5CAB;
     display: inline;
     max-height: 30px;
 }
+.homesection {
+    border-top: solid 4px #E3E6EC;
+    border-bottom: solid 4px #E3E6EC;
+    font-size: 1.3em;
+    font-weight: 200;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+.homesection:hover{
+    background: rgba(255,255,255,0.3);
+}
+.outermostcontainer {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+.footerrow {
+    text-align: left;
+}
+.projectnamelink {
+    font-weight: 700;
+    border-bottom: solid 2px;
+    display: inline;
+}
+.projectdescription {}
+@media all and (max-width: 1690px) {}
+@media all and (max-width: 1280px) {}
+@media all and (max-width: 980px) {}
+@media all and (max-width: 736px) {}
+@media all and (max-width: 480px) {}
