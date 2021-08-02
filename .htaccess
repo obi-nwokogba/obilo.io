@@ -1,0 +1,21 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} ^obilo\.io$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.obilo\.io$
+RewriteRule .* https://obilo.io%{REQUEST_URI} [R=301,L]
+
+RewriteRule    ^/    https://obilo.io/index.php    [NC,L]
+
+RewriteRule    ^classifieds/?$    https://ngplaylist.com/index.php?p=classifieds    [NC,L]
+RewriteRule    ^charts/?$    https://obilo.io/index.php?p=charts    [NC,L]
+
+RewriteRule    ^javascriptpad/?$    https://obilo.io/javascriptpad.php    [NC,L]
+RewriteRule    ^phppad/?$    https://obilo.io/phppad.php    [NC,L]
+RewriteRule    ^csspad/?$    https://obilo.io/csspad.php?    [NC,L]
+RewriteRule    ^rubypad/?$    https://obilo.io/rubypad.php    [NC,L]
+RewriteRule    ^contact/?$    https://obilo.io/contact.php    [NC,L]
+
+RewriteRule    ^postclassified/?$    https://ngplaylist.com/index.php?p=postclassified    [NC,L]
+RewriteRule    ^riddim2018/?$    https://ngplaylist.com/index.php?p=riddim2018    [NC,L]
