@@ -16,7 +16,7 @@
     </div>
 
     <br /><br />
-    Last updated on August 1, 2021<br />
+    Last updated on August 2, 2021<br />
     &copy; 2021 Obi Nwokogba
 </div>
 </div>

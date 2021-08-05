@@ -19,6 +19,7 @@
 
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -213,16 +214,6 @@ h4.introduction {
     text-align: left;
 }
 
-.lastupdatednote {
-    border-bottom: solid 2px var(--lightbordergray);
-    color: rgb(117, 117, 117);
-    border-radius: 0px;
-    padding: 7px;
-    font-size: 0.5em;
-    margin-bottom: 17px;
-    margin-top: 17px;
-}
-
 span.technologiesused {
     border-top: dotted 2px #1475e430;
     border-radius: 0px;
@@ -273,6 +264,23 @@ label {
     font-size: 1.1em;
     padding: 13px;
     width: 500px;
+}
+
+.lastupdatednote {
+    background: #78ebffb0;
+    color: rgb(56, 56, 56);
+    border-radius: 0px;
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+.statusupdatebox {
+    border: solid 3px #78eaff;
+    border-radius: 7px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.587);
+    font-weight: 400;
+    color: #555;
 }
 
 .contactformtextarea {
@@ -490,28 +498,24 @@ span.explanationabovecodeblock {
 }
 
 /* FIRST BREAKPOINT */
-@media all and (max-width: 480px) {
+@media all and (max-width: 460px) {
 
     .outermostcontainer {
         margin: 0 auto;
         display: flex;
         flex-direction: column;
-        max-width: 450px;
+        max-width: 370px;
         border-left: dotted 2px var(--lightbordergray);
         padding-left: 21px;
     }
 
     body {
-        width: 470px;
-        max-width: 470px;
-    }
-
-    .html {
-        max-width: 500px;
+        width: 370px;
+        max-width: 370px;
     }
 
     .pagecontainer {
-        max-width: 480px;
+        max-width: 380px;
     }
 
     .homesection {
@@ -527,7 +531,13 @@ span.explanationabovecodeblock {
         max-width: 90vw;
     }
 
-
+    .headerlogo {
+        width: 170px;
+        margin-bottom: 20px;
+        transition: 0.5s;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
 
     h1 {
         font-size: 2em;
@@ -540,9 +550,9 @@ span.explanationabovecodeblock {
 
     .navbar {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         flex-direction: column;
-        border-bottom: solid 3px rgb(210, 210, 210);
+        border: none;
     }
 
     .navbar>a {
@@ -552,23 +562,106 @@ span.explanationabovecodeblock {
         border-bottom: solid 4px transparent;
         padding-bottom: 5px;
         margin-bottom: 5px;
-        height: 30px;
-        margin-top: 12px;
         border-bottom: solid 3px rgba(229, 229, 229, 0.779);
         font-weight: 300;
-        max-width: 250px;
+        max-width: 230px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 17px;
+        width: 250px;
     }
 
     .parallax {
         width: 97vw;
         margin-left: -20px;
         font-size: 24px;
+        padding: 13px;
+        font-size: 1.1em;
     }
 
     .homepageparallax {
         border-bottom: solid 7px var(--obilo-blue);
     }
 
+    .projectdescription {
+        font-weight: 300;
+        font-size: 0.7em;
+        padding: 0px;
+        margin: 0;
+        margin-bottom: 14px;
+        border-bottom: none;
+    }
+
+    span.technologiesused {
+        border-top: dotted 2px #1475e430;
+        border-radius: 0px;
+        display: block;
+        font-size: 0.7em;
+        padding: 3px;
+        padding-left: 7px;
+        padding-right: 7px;
+        opacity: 0.9;
+        transition: 0.2s;
+        display: block;
+        font-family: mpluscode;
+        text-transform: uppercase;
+        margin-top: 17px;
+        color: rgb(120, 120, 120);
+    }
+
+    .lightbigheader {
+        font-weight: 700;
+        color: #b0b0b0ac;
+        font-family: 'Manrope', helvetica, helvetica neue, Segoe UI, sans-serif;
+        text-transform: lowercase;
+        font-size: 2.3em;
+        letter-spacing: -2px;
+        margin-bottom: 20px;
+        line-height: 55px;
+        border-bottom: solid 3px rgba(219, 219, 219, 0.604);
+        padding-bottom: 13px;
+        zoom: 0.8;
+    }
+
+    .contactformfield {
+        display: block;
+        border-radius: 7px;
+        height: 50px;
+        font-size: 1.1em;
+        padding: 13px;
+        width: 95%;
+    }
+
+    .contactformtextarea {
+        display: block;
+        border-radius: 7px;
+        height: 120px;
+        font-size: 1.1em;
+        padding: 11px;
+        width: 95%;
+        height: 400;
+    }
+
+    .sendmessagebutton {
+        display: block;
+        color: white;
+        padding: 20px;
+        border: none;
+        border-radius: 7px;
+        background-color: var(--obilo-blue);
+        margin-top: 10px;
+    }
+    a.projectnamelink {
+        font-weight: 400;
+        border-bottom: solid 2px #1475e448 !important;
+        display: block;
+        text-decoration: none;
+        color: #1475e4;
+        margin-top: 3px !important;
+        transition: 0.2s;
+        font-size: 0.65em;
+        margin-bottom: 0px;
+    }
 }
 
 /* SECOND BREAKPOINT */

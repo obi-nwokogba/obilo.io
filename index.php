@@ -16,8 +16,8 @@ require_once "universal_navigation.php"; ?>
 
 <div class="pagecontainer">
    <div class="parallax homepageparallax">
-      Hello! My name is Obi and I'm a Full-stack Software Engineer. I have a passion for making engaging apps and designing elegant user interfaces. <br />
-      <small>I enjoy working with React, React Native, Ruby, Ruby on Rails, Javascript, Java, ExpressJS, NodeJS, MongoDB, SQL, PHP, HTML5 and CSS3.</small>
+      Hello! My name is Obi and I'm a Full-stack Software Engineer. I have a passion for making engaging apps and designing elegant user interfaces. <br /><br />
+      I enjoy working with React, React Native, Ruby, Ruby on Rails, Javascript, Java, ExpressJS, NodeJS, MongoDB, SQL, PHP, HTML5 and CSS3.
 
       <div class="favoritetechnologies">
          <i class="fab fa-js-square blueicon fa-2x"></i>
@@ -30,15 +30,18 @@ require_once "universal_navigation.php"; ?>
 
    <div class="homesection">
 
-      <span class="lastupdatednote">updated August, 2021</span><br />
-      I am currently a Software Engineering Fellow at <a href="https://generalassemb.ly/" target="_blank">General Assembly</a>.
+      <div class="statusupdatebox">
+         <span class="lastupdatednote">August 4 , 2021 update</span>
+         Software Engineering graduate from <a href="https://generalassemb.ly/" target="_blank">General Assembly</a> with over 460 hours of web development instruction and coursework completed. Projects created during this time include:
+      </div>
 
-      During this 460-hour course, so far, I have created these projects:<br />
+
+      <h2 class="lightbigheader" id="projects">projects</h2>
 
       <div class="panelbox">
          <div class="panelboxheader projectname">
 
-            <a href="downloads/pesapulse.apk" class="projectname">
+            <a href="downloads/pesapulse-184.apk" class="projectname">
                Pesa Pulse <span class="lightest">
             </a>
 
