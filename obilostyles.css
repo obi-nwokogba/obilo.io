@@ -156,8 +156,8 @@ h4.introduction {
 }
 
 .footerbox {
-    margin-top:40px;
-     background-color:rgba(0,0,0,0.03);
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.03);
     border-top: solid 2px #E3E6EC;
     border-bottom: solid 13px #6e6e6e;
     font-size: 0.8em;
@@ -181,8 +181,8 @@ h4.introduction {
     align-content: center;
 }
 
-.footersocialbox > a:hover {
-color:var(--obilo-blue);
+.footersocialbox>a:hover {
+    color: var(--obilo-blue);
 }
 
 .sendmessagebutton {
@@ -193,7 +193,7 @@ color:var(--obilo-blue);
     border-radius: 7px;
     background-color: var(--obilo-blue);
     margin-top: 10px;
-    font-size:1em;
+    font-size: 1em;
 }
 
 .sendmessagebutton:hover {
@@ -203,7 +203,7 @@ color:var(--obilo-blue);
 .socialboxcontainer {
     display: flex;
     flex-direction: row;
-    margin:0 auto;
+    margin: 0 auto;
     justify-content: center;
 
 }
@@ -232,13 +232,18 @@ span.technologiesused {
     padding: 3px;
     padding-left: 7px;
     padding-right: 7px;
+
     opacity: 0.9;
     transition: 0.2s;
     display: block;
     font-family: mpluscode;
     text-transform: uppercase;
-    margin-top: 17px;
-    color: rgb(120, 120, 120);
+    margin-top: 20px;
+    margin-top: 30px;
+    padding-bottom:15px;
+    padding-top:15px;
+    color: rgb(101, 101, 101);
+
 }
 
 .lightbigheader {
@@ -287,7 +292,7 @@ label {
     border: solid 3px #78eaff;
     border-radius: 7px;
     padding: 40px;
-    background-color: rgba(255, 255, 255, 0.587);
+    background-color: rgba(255, 255, 255, 0.887);
     font-weight: 400;
     color: #555;
 }
@@ -312,6 +317,16 @@ img.artpicthumb {
     padding: 3px;
     border: 2px solid #EEF2F1;
     margin: 7px;
+    transition: 0.13s;
+}
+
+img.artpicthumb:hover {
+    width: 160px;
+    height: 160px;
+    padding: 3px;
+    border: 2px solid #767676;
+    margin: 7px;
+    opacity: 0.7;
 }
 
 a.projectname {
@@ -322,7 +337,7 @@ a.projectname {
     color: #1475e4;
     margin-top: 10px !important;
     transition: 0.2s;
-    font-size: 1.4em;
+    font-size: 1.6em;
     margin-bottom: 0px;
 }
 
@@ -334,7 +349,7 @@ a.projectnamelink {
     color: #1475e4;
     margin-top: 3px !important;
     transition: 0.2s;
-    font-size: 0.75em;
+    font-size: 0.8em;
     margin-bottom: 0px;
 }
 
@@ -607,14 +622,15 @@ span.explanationabovecodeblock {
         display: block;
         font-size: 0.7em;
         padding: 3px;
-        padding-left: 7px;
+        padding-left: 0px;
         padding-right: 7px;
         opacity: 0.9;
         transition: 0.2s;
         display: block;
         font-family: mpluscode;
         text-transform: uppercase;
-        margin-top: 17px;
+        margin-top: 25px !important;
+ 
         color: rgb(120, 120, 120);
     }
 
@@ -660,6 +676,7 @@ span.explanationabovecodeblock {
         background-color: var(--obilo-blue);
         margin-top: 10px;
     }
+
     a.projectnamelink {
         font-weight: 400;
         border-bottom: solid 2px #1475e448 !important;

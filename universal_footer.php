@@ -16,14 +16,13 @@
     </div>
 
     <br /><br />
-    Last updated on August 7, 2021<br />
+    Last updated on August 8, 2021<br />
     &copy; 2021 Obi Nwokogba
 </div>
 </div>
 
 
-<!-- Default Statcounter code for obilo.io https://obilo.io
--->
+<!-- Statcounter code -->
 <script type="text/javascript">
 var sc_project=12577044; 
 var sc_invisible=1; 

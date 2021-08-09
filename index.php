@@ -29,16 +29,12 @@ require_once "universal_navigation.php"; ?>
    </div>
 
    <div class="homesection">
-
       <div class="statusupdatebox">
          <span class="lastupdatednote">August 4 , 2021 update</span>
          I graduated from <a href="https://generalassemb.ly/" target="_blank">General Assembly's</a> Software Engineering program after over 460 hours of web development instruction and coursework completed. Projects created during this time include:
       </div>
 
-
       <h2 class="lightbigheader" id="projects">projects</h2>
-
-
 
       <div class="panelbox">
          <div class="panelboxheader">
@@ -52,15 +48,15 @@ require_once "universal_navigation.php"; ?>
 
          <div class="panelboxcontent">
             <p class="projectdescription">
-               A versatile color explorer and finder for shades, tints, variants. A great tool for web designers and graphic designers. <span class="technologiesused">Javascript, jQuery, HTML5, CSS3</span>
+               A versatile color explorer and finder for shades, tints, variants. A great tool for web designers and graphic designers. <span class="technologiesused">Made with Javascript, jQuery, HTML5, CSS3</span>
 
-               <span class="technologiesused">Screenshots:</span>
+               <span class="technologiesused">Screenshots:<br /></span>
 
                <a href="images/coloressa_screenshot1.png" data-fancybox="graphicdesign" data-caption="Coloressa.com - User Interface">
-            <img class="artpicthumb" src="images/coloressa_screenshot1_thumbnail.png"></a>
+                  <img class="artpicthumb" src="images/coloressa_screenshot1_thumbnail.png"></a>
 
-            <a href="images/coloressa_screenshot2.png" data-fancybox="graphicdesign" data-caption="Coloressa.com - User Interface">
-            <img class="artpicthumb" src="images/coloressa_screenshot2_thumbnail.png"></a>
+               <a href="images/coloressa_screenshot2.png" data-fancybox="graphicdesign" data-caption="Coloressa.com - User Interface">
+                  <img class="artpicthumb" src="images/coloressa_screenshot2_thumbnail.png"></a>
             </p>
          </div>
       </div>
@@ -68,8 +64,8 @@ require_once "universal_navigation.php"; ?>
       <div class="panelbox">
          <div class="panelboxheader">
             <a href="https://play.google.com/store/apps/details?id=com.obipix.wallpapers&hl=en_US&gl=US" class="projectname" target="_blank">
-               ObiPix Wallpapers</a><span class="lightest"> java 
-                  &bull; android app</span>
+               ObiPix Wallpapers</a><span class="lightest"> java
+               &bull; android app</span>
 
             <a href="https://play.google.com/store/apps/details?id=com.obipix.wallpapers&hl=en_US&gl=US" class="projectnamelink">
                https://play.google.com/store</a>
@@ -77,18 +73,30 @@ require_once "universal_navigation.php"; ?>
          <div class="panelboxcontent">
             <p class="projectdescription">
                Android app I made in Java. Generates different images based on several algorithms. There are over 40 different image-making algorithms like 'Polka Dots', 'Matrix', 'Grunge'...
-               <span class="technologiesused">Java, Android Studio</span>
+               <span class="technologiesused">Made with Java, Android Studio</span>
+
+               <span class="technologiesused">Screenshots:<br /></span>
+
+               <a href="images/obipix_screenshot1.jpg" data-fancybox="graphicdesign" data-caption="PesaPulse - React Native">
+                  <img class="artpicthumb" src="images/obipix_screenshot1_thumbnail.jpg"></a>
+
+               <a href="images/obipix_screenshot2.jpg" data-fancybox="graphicdesign" data-caption="PesaPulse - React Native">
+                  <img class="artpicthumb" src="images/obipix_screenshot2_thumbnail.jpg"></a>
+
+               <a href="images/obipix_screenshot3.jpg" data-fancybox="graphicdesign" data-caption="PesaPulse - React Native">
+                  <img class="artpicthumb" src="images/obipix_screenshot3_thumbnail.jpg"></a>
+
+               <!-- <a href="images/obipix_screenshot4.jpg" data-fancybox="graphicdesign" data-caption="ObiPix Wallpapers - Android App">
+                  <img class="artpicthumb" src="images/obipix_screenshot4_thumbnail.jpg"></a> -->
             </p>
          </div>
       </div>
-
-
 
       <div class="panelbox">
          <div class="panelboxheader projectname">
 
             <a href="downloads/pesapulse-184.apk" class="projectname">
-               Pesa Pulse <span class="lightest"> react native</span>
+               Pesa Pulse
             </a>
 
             </a>
@@ -99,12 +107,25 @@ require_once "universal_navigation.php"; ?>
                <span class="technologiesused">
                   <a href="downloads/pesapulse-184.apk">
                      Download: Pesa Pulse v 1.8.4 APK - 63 MB</a><br />
-                  Updated August 4, 2021</span>
-               <span class="technologiesused">React Native, Expo, Javascript, REST APIs</span>
+                  Last updated August 4, 2021</span>
+               <span class="technologiesused">Made with React Native, Expo, Javascript, REST APIs</span>
+
+               <span class="technologiesused">Screenshots:<br /></span>
+
+               <a href="images/pesapulseapp_screenshot1.jpg" data-fancybox="graphicdesign" data-caption="ObiPix Wallpapers - Android App">
+                  <img class="artpicthumb" src="images/pesapulseapp_screenshot1_thumbnail.jpg"></a>
+
+               <a href="images/pesapulseapp_screenshot2.jpg" data-fancybox="graphicdesign" data-caption="ObiPix Wallpapers - Android App">
+                  <img class="artpicthumb" src="images/pesapulseapp_screenshot2_thumbnail.jpg"></a>
+
+               <a href="images/pesapulseapp_screenshot3.jpg" data-fancybox="graphicdesign" data-caption="ObiPix Wallpapers - Android App">
+                  <img class="artpicthumb" src="images/pesapulseapp_screenshot3_thumbnail.jpg"></a>
+
+               <a href="images/pesapulseapp_screenshot4.jpg" data-fancybox="graphicdesign" data-caption="ObiPix Wallpapers - Android App">
+                  <img class="artpicthumb" src="images/pesapulseapp_screenshot4_thumbnail.jpg"></a>
             </p>
          </div>
       </div>
-
 
       <div class="panelbox">
          <div class="panelboxheader">
@@ -134,7 +155,7 @@ require_once "universal_navigation.php"; ?>
          </div>
          <div class="panelboxcontent">
             <p class="projectdescription">
-               Search for movie reviews, ratings, shows, upcoming releases. Uses the OMDB API and jQuery mainly to make API AJAX calls. <span class="technologiesused">React, API, HTML5, CSS3</span>
+               Search for movie reviews, ratings, shows, upcoming releases. Uses the OMDB API and jQuery mainly to make API AJAX calls. <span class="technologiesused">Made with React, API, HTML5, CSS3</span>
             </p>
          </div>
       </div>
@@ -151,7 +172,7 @@ require_once "universal_navigation.php"; ?>
          <div class="panelboxcontent">
             <p class="projectdescription">
                A fictional sunglasses store. This site has full CRUD operations on sunglasses for sale, and it runs on ExpressJS,NodeJS and a MongoDB database. I also designed the UI,CSS and graphics, without using any CSS frameworks.
-               <span class="technologiesused">Javascript, ExpressJS, NodeJS, MongoDB, Mongoose, HTML5, CSS3</span>
+               <span class="technologiesused">Made with Javascript, ExpressJS, NodeJS, MongoDB, Mongoose, HTML5, CSS3</span>
             </p>
          </div>
       </div>
@@ -177,7 +198,7 @@ require_once "universal_navigation.php"; ?>
          <div class="panelboxcontent">
             <p class="projectdescription">
                An app to research the Stocks of publicly traded American Companies. Made in ReactJS. Connects to the Finnhub's REST API for data.
-               <span class="technologiesused">React, API, HTML5, CSS3, API</span>
+               <span class="technologiesused">Made with React, API, HTML5, CSS3, API</span>
             </p>
          </div>
       </div>
@@ -201,7 +222,7 @@ require_once "universal_navigation.php"; ?>
          <div class="panelboxcontent">
             <p class="projectdescription">
                A user-created collection of Preachers and some of their sayings.
-               <span class="technologiesused">MongoDB, Express JS, Node, HTML5, CSS3, Javascript, Mongoose</span>
+               <span class="technologiesused">Made with MongoDB, Express JS, Node, HTML5, CSS3, Javascript, Mongoose</span>
             </p>
          </div>
       </div>
@@ -218,7 +239,7 @@ require_once "universal_navigation.php"; ?>
       <h2 class="lightbigheader">my projects</h2>
       These are some of projects which I created, own, and actively maintain:
 
-      
+
 
 
       <div class="panelbox">
@@ -234,7 +255,7 @@ require_once "universal_navigation.php"; ?>
          <div class="panelboxcontent">
             <p class="projectdescription">
                A social network for musicians and their fans, centered around Nigerian music. Used by many musicians to promote their songs. Started in 2015.
-               <span class="technologiesused">PHP, MySQL, Javascript, jQuery, HTML5, CSS3</span>
+               <span class="technologiesused">Made with PHP, MySQL, Javascript, jQuery, HTML5, CSS3</span>
             </p>
          </div>
       </div>
@@ -253,7 +274,7 @@ require_once "universal_navigation.php"; ?>
             <p class="projectdescription">
                Create an infinite variety of algorithm-generated wallpapers. Image generation was coded in PHP using the PHP GD library and algorithms I created. Also includes a designer-palette maker as well as an illustrator's palette-maker.
 
-               <span class="technologiesused">PHP, MySQL, Javascript, jQuery, HTML5, CSS5</span>
+               <span class="technologiesused">Made with PHP, MySQL, Javascript, jQuery, HTML5, CSS3</span>
             </p>
          </div>
       </div>
@@ -270,7 +291,8 @@ require_once "universal_navigation.php"; ?>
 
          <div class="panelboxcontent">
             <p class="projectdescription">
-               Create images with beautiful backgrounds and Bible Verses overlayed on them. Accesses over 6 different versions, and uses the same image-pattern algorithms from ObiPix Wallpapers.<span class="technologiesused">PHP, Javascript, jQuery, HTML5, CSS3, APIs, SQL</span>
+               Create images with beautiful backgrounds and Bible Verses overlayed on them. Accesses over 6 different versions, and uses the same image-pattern algorithms from ObiPix Wallpapers.
+               <span class="technologiesused">Made with PHP, Javascript, jQuery, HTML5, CSS3, APIs, SQL</span>
             </p>
          </div>
       </div>
