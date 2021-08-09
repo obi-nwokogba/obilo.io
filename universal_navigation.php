@@ -1,6 +1,7 @@
 </head>
 
 <body>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
    <div class="outermostcontainer">
 
    <div class="stripedyellow"></div>
@@ -11,7 +12,7 @@
          <nav class="navbar">
             <a href="<?php echo $homepage; ?>">home</a>
             <a href="index.php#projects">projects</a>
-            <a href="<?php echo $contact; ?>">contact me!</a>
+            <a href="<?php echo $contact; ?>">contact me</a>
 
             <a href="downloads/Obi Nwokogba - Resume - Full Stack Software Engineer.pdf" target="_blank">my resume</a>
             <!-- <a href="<?php echo $javascriptpad; ?>">javascript notes</a> -->

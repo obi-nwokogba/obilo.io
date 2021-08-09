@@ -32,17 +32,63 @@ require_once "universal_navigation.php"; ?>
 
       <div class="statusupdatebox">
          <span class="lastupdatednote">August 4 , 2021 update</span>
-         Software Engineering graduate from <a href="https://generalassemb.ly/" target="_blank">General Assembly</a> with over 460 hours of web development instruction and coursework completed. Projects created during this time include:
+         I graduated from <a href="https://generalassemb.ly/" target="_blank">General Assembly's</a> Software Engineering program after over 460 hours of web development instruction and coursework completed. Projects created during this time include:
       </div>
 
 
       <h2 class="lightbigheader" id="projects">projects</h2>
 
+
+
+      <div class="panelbox">
+         <div class="panelboxheader">
+            <a href="https://coloressa.com" class="projectname" target="_blank">
+               Coloressa
+            </a>
+            <a href="https://coloressa.com" class="projectnamelink" target="_blank">
+               https://coloressa.com
+            </a>
+         </div>
+
+         <div class="panelboxcontent">
+            <p class="projectdescription">
+               A versatile color explorer and finder for shades, tints, variants. A great tool for web designers and graphic designers. <span class="technologiesused">Javascript, jQuery, HTML5, CSS3</span>
+
+               <span class="technologiesused">Screenshots:</span>
+
+               <a href="images/coloressa_screenshot1.png" data-fancybox="graphicdesign" data-caption="Coloressa.com - User Interface">
+            <img class="artpicthumb" src="images/coloressa_screenshot1_thumbnail.png"></a>
+
+            <a href="images/coloressa_screenshot2.png" data-fancybox="graphicdesign" data-caption="Coloressa.com - User Interface">
+            <img class="artpicthumb" src="images/coloressa_screenshot2_thumbnail.png"></a>
+            </p>
+         </div>
+      </div>
+
+      <div class="panelbox">
+         <div class="panelboxheader">
+            <a href="https://play.google.com/store/apps/details?id=com.obipix.wallpapers&hl=en_US&gl=US" class="projectname" target="_blank">
+               ObiPix Wallpapers</a><span class="lightest"> java 
+                  &bull; android app</span>
+
+            <a href="https://play.google.com/store/apps/details?id=com.obipix.wallpapers&hl=en_US&gl=US" class="projectnamelink">
+               https://play.google.com/store</a>
+         </div>
+         <div class="panelboxcontent">
+            <p class="projectdescription">
+               Android app I made in Java. Generates different images based on several algorithms. There are over 40 different image-making algorithms like 'Polka Dots', 'Matrix', 'Grunge'...
+               <span class="technologiesused">Java, Android Studio</span>
+            </p>
+         </div>
+      </div>
+
+
+
       <div class="panelbox">
          <div class="panelboxheader projectname">
 
             <a href="downloads/pesapulse-184.apk" class="projectname">
-               Pesa Pulse <span class="lightest">
+               Pesa Pulse <span class="lightest"> react native</span>
             </a>
 
             </a>
@@ -51,8 +97,9 @@ require_once "universal_navigation.php"; ?>
             <p class="projectdescription">
                A mobile app I made in React Native, which gives live prices of cryptocurrencies and stocks. This was my final project at General Assembly. You can download the APK for Android phones here:
                <span class="technologiesused">
-                  <a href="downloads/pesapulse.apk">
-                     Download: Pesa Pulse v 1.7.27 APK - 63 MB</a></span>
+                  <a href="downloads/pesapulse-184.apk">
+                     Download: Pesa Pulse v 1.8.4 APK - 63 MB</a><br />
+                  Updated August 4, 2021</span>
                <span class="technologiesused">React Native, Expo, Javascript, REST APIs</span>
             </p>
          </div>
@@ -171,22 +218,7 @@ require_once "universal_navigation.php"; ?>
       <h2 class="lightbigheader">my projects</h2>
       These are some of projects which I created, own, and actively maintain:
 
-      <div class="panelbox">
-         <div class="panelboxheader">
-            <a href="https://coloressa.com" class="projectname" target="_blank">
-               Coloressa
-            </a>
-            <a href="https://coloressa.com" class="projectnamelink" target="_blank">
-               https://coloressa.com
-            </a>
-         </div>
-
-         <div class="panelboxcontent">
-            <p class="projectdescription">
-               A versatile color explorer and finder for shades, tints, variants. A great tool for web designers and graphic designers. <span class="technologiesused">Javascript, jQuery, HTML5, CSS3</span>
-            </p>
-         </div>
-      </div>
+      
 
 
       <div class="panelbox">
@@ -225,24 +257,6 @@ require_once "universal_navigation.php"; ?>
             </p>
          </div>
       </div>
-
-      <div class="panelbox">
-         <div class="panelboxheader">
-            <a href="https://play.google.com/store/apps/details?id=com.obipix.wallpapers&hl=en_US&gl=US" class="projectname" target="_blank">
-               ObiPix Wallpapers on Android</a>
-
-            <a href="https://play.google.com/store/apps/details?id=com.obipix.wallpapers&hl=en_US&gl=US" class="projectnamelink">
-               https://play.google.com/store</a>
-         </div>
-         <div class="panelboxcontent">
-            <p class="projectdescription">
-               Android app I made in Java. Generates different images based on several algorithms. There are over 40 different image-making algorithms like 'Polka Dots', 'Matrix', 'Grunge'...
-               <span class="technologiesused">Java, Android Studio</span>
-            </p>
-         </div>
-      </div>
-
-
 
       <div class="panelbox">
          <div class="panelboxheader">
