@@ -17,7 +17,7 @@ require_once "universal_navigation.php"; ?>
 <div class="pagecontainer">
    <div class="parallax homepageparallax">
       Hello! My name is Obi and I'm a Full-stack Software Engineer. I have a passion for making engaging apps and designing elegant user interfaces. <br /><br />
-      I enjoy working with React, React Native, Ruby, Ruby on Rails, Javascript, Java, ExpressJS, NodeJS, MongoDB, SQL, PHP, HTML5 and CSS3.
+      I enjoy working with React, React Native, Ruby, Ruby on Rails, Javascript, Java, ExpressJS, NodeJS, MongoDB, SQL, HTML5 and CSS3.
 
       <div class="favoritetechnologies">
          <i class="fab fa-js-square blueicon fa-2x"></i>
@@ -30,6 +30,11 @@ require_once "universal_navigation.php"; ?>
 
    <div class="homesection">
       <div class="statusupdatebox">
+
+      <span class="lastupdatednote">August 10 , 2021 update</span>
+         This month I started a new personal project, <a href="https://github.com/obi-nwokogba/omniapi" target="_blank">OmniAPI</a> which is a RESTful JSON API I am creating in Ruby on Rails.
+<br /><br />
+
          <span class="lastupdatednote">August 4 , 2021 update</span>
          I graduated from <a href="https://generalassemb.ly/" target="_blank">General Assembly's</a> Software Engineering program after over 460 hours of web development instruction and coursework completed. Projects created during this time include:
       </div>
@@ -92,6 +97,11 @@ require_once "universal_navigation.php"; ?>
          </div>
       </div>
 
+
+
+
+
+
       <div class="panelbox">
          <div class="panelboxheader projectname">
 
@@ -121,11 +131,53 @@ require_once "universal_navigation.php"; ?>
                <a href="images/pesapulseapp_screenshot3.jpg" data-fancybox="graphicdesign" data-caption="ObiPix Wallpapers - Android App">
                   <img class="artpicthumb" src="images/pesapulseapp_screenshot3_thumbnail.jpg"></a>
 
-               <a href="images/pesapulseapp_screenshot4.jpg" data-fancybox="graphicdesign" data-caption="ObiPix Wallpapers - Android App">
-                  <img class="artpicthumb" src="images/pesapulseapp_screenshot4_thumbnail.jpg"></a>
+               <!-- <a href="images/pesapulseapp_screenshot4.jpg" data-fancybox="graphicdesign" data-caption="ObiPix Wallpapers - Android App">
+                  <img class="artpicthumb" src="images/pesapulseapp_screenshot4_thumbnail.jpg"></a> -->
             </p>
          </div>
       </div>
+
+
+      <div class="panelbox">
+         <div class="panelboxheader projectname">
+
+            <a href="https://github.com/obi-nwokogba/omniapi" class="projectname">
+               OmniAPI
+            </a>
+
+            <a href="https://github.com/obi-nwokogba/omniapi" class="projectnamelink" target="_blank">
+            https://github.com/obi-nwokogba/omniapi</span>
+            </a>
+
+            </a>
+         </div>
+         <div class="panelboxcontent">
+            <p class="projectdescription">
+               A RESTful JSON API that aims to provide a large variety of information and data. Currently, OmniAPI can return the current time in some countries, as well as random quotes. Please see the Readme on Github for more information. OmniAPI is currently in the Alpha phase. Hosted on Heroku for now.
+               
+               <span class="technologiesused">Made with Ruby, Ruby on Rails, Heroku</span>
+               <span class="technologiesused">Last updated August 10, 2021</span>
+
+               <!-- <span class="technologiesused">Screenshots:<br /></span>
+
+               <a href="images/pesapulseapp_screenshot1.jpg" data-fancybox="graphicdesign" data-caption="ObiPix Wallpapers - Android App">
+                  <img class="artpicthumb" src="images/pesapulseapp_screenshot1_thumbnail.jpg"></a>
+
+               <a href="images/pesapulseapp_screenshot2.jpg" data-fancybox="graphicdesign" data-caption="ObiPix Wallpapers - Android App">
+                  <img class="artpicthumb" src="images/pesapulseapp_screenshot2_thumbnail.jpg"></a>
+
+               <a href="images/pesapulseapp_screenshot3.jpg" data-fancybox="graphicdesign" data-caption="ObiPix Wallpapers - Android App">
+                  <img class="artpicthumb" src="images/pesapulseapp_screenshot3_thumbnail.jpg"></a>
+
+               <a href="images/pesapulseapp_screenshot4.jpg" data-fancybox="graphicdesign" data-caption="ObiPix Wallpapers - Android App">
+                  <img class="artpicthumb" src="images/pesapulseapp_screenshot4_thumbnail.jpg"></a> -->
+            </p>
+         </div>
+      </div>
+
+
+
+
 
       <div class="panelbox">
          <div class="panelboxheader">

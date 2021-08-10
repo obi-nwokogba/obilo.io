@@ -240,22 +240,21 @@ span.technologiesused {
     text-transform: uppercase;
     margin-top: 20px;
     margin-top: 30px;
-    padding-bottom:15px;
-    padding-top:15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     color: rgb(101, 101, 101);
-
 }
 
 .lightbigheader {
     font-weight: 700;
-    color: #b0b0b0ac;
+    color: var(--omniapi-blue);
     font-family: 'Manrope', helvetica, helvetica neue, Segoe UI, sans-serif;
     text-transform: lowercase;
-    font-size: 2.8em;
+    font-size: 2.6em;
     letter-spacing: -2px;
     margin-bottom: 20px;
     line-height: 55px;
-    border-bottom: solid 3px rgba(219, 219, 219, 0.604);
+    border-bottom: solid 3px var(--omniapi-green);
     padding-bottom: 13px;
 }
 
@@ -509,13 +508,13 @@ span.pageheader {
     color: rgba(255, 255, 255, 0.813);
 }
 
-span.explanationabovecodeblock {
+span.paragraph {
     display: block;
     font-size: 1.1em;
     color: #333;
     font-weight: 300;
-    margin-top: 40px;
-    border-top: solid 3px #FFCC33;
+    margin-top: 20px;
+    border:none;
     padding: 10px;
     padding-left: 0px;
     margin-bottom: -25px;
@@ -630,7 +629,7 @@ span.explanationabovecodeblock {
         font-family: mpluscode;
         text-transform: uppercase;
         margin-top: 25px !important;
- 
+
         color: rgb(120, 120, 120);
     }
 
