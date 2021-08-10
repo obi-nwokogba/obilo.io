@@ -12,6 +12,7 @@ RewriteRule    ^classifieds/?$    https://ngplaylist.com/index.php?p=classifieds
 RewriteRule    ^charts/?$    https://obilo.io/index.php?p=charts    [NC,L]
 
 RewriteRule    ^javascriptpad/?$    https://obilo.io/javascriptpad.php    [NC,L]
+RewriteRule    ^omniapi/?$    https://obilo.io/omniapi.php    [NC,L]
 RewriteRule    ^phppad/?$    https://obilo.io/phppad.php    [NC,L]
 RewriteRule    ^csspad/?$    https://obilo.io/csspad.php?    [NC,L]
 RewriteRule    ^rubypad/?$    https://obilo.io/rubypad.php    [NC,L]

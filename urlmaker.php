@@ -11,6 +11,7 @@ if (strpos($url, 'localhost') !== false) {
     $contact = "contact.php";
 } else {
     // We are on production server
+    $omniapi = "/omniapi";
     $homepage = "/";
     $javascriptpad = "/javascriptpad";
     $csspad = "/csspad";
