@@ -1,0 +1,249 @@
+:root {
+    --main-brand-color: #FF005A;
+    --main-main-dark: #FF005A;
+}
+
+@font-face {
+    font-family: 'highvoltage';
+    src: url('../fonts/highvoltage.ttf');
+}
+
+html {
+    background: rgb(60, 60, 60);
+}
+
+body {
+    background: rgb(60, 60, 60);
+    height: 100%;
+    font-family: 'Newsreader', serif;
+    color: #2A2A25;
+}
+
+#mainLogo {
+    margin: 0 auto;
+    display: block;
+    padding-top: 60px;
+}
+
+header {
+    background-color: var(--main-brand-color);
+    color: rgba(255, 255, 255, 0.9);
+    padding-bottom: 25px;
+}
+
+.headerContainer {
+    text-align: center;
+
+}
+
+main {
+    background: #e3e3e3;
+    color: rgb(42, 42, 42);
+    padding: 20px;
+}
+
+.mainContainer {
+    padding: 10px;
+}
+
+footer {
+    background: rgb(70, 70, 70);
+}
+
+.footerContainer {
+    color: rgba(255, 255, 255, 0.4);
+    padding: 30px;
+    text-align: center;
+}
+
+#searchBar {
+    border: solid 4px rgba(41, 41, 36, 0.6);
+    color: #2a2a25;
+    border-radius: 16px 8px 8px 16px;
+    padding: 15px;
+    width: ;
+}
+
+#searchButton {
+    background: #2A2A25;
+    /* border-radius: 20px 0px 20px 20px; */
+    padding: 15px;
+    color: white;
+    width: 105px;
+    border: none;
+}
+
+.majorHeading {
+    font-family: 'highvoltage' !important;
+    color: #333;
+    padding: 2px;
+    border-bottom: solid 3px rgba(182, 182, 182, 0.3);
+    margin-bottom: 1px;
+    font-size: 50px;
+}
+
+.heading2 {
+    font-family: 'highvoltage' !important;
+    color: #333;
+    padding: 1px;
+    border-bottom: solid 3px rgba(182, 182, 182, 0.3);
+    margin-bottom: 10px;
+}
+
+.quickStatsHeading {
+    font-family: 'highvoltage' !important;
+    color: #333;
+    padding: 1px;
+    border-bottom: solid 3px rgba(182, 182, 182, 0.3);
+    margin-bottom: 10px;
+    color:#65655B;
+}
+
+p.renderedText1 {
+    font-family: 'Newsreader', serif;
+    font-size: 22px;
+    padding: 0px !important;
+    line-height: 1.2em;
+}
+
+.bottomFooterLogo {
+    opacity: 0.3;
+    margin: 0 auto;
+    display: block;
+}
+
+form {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    border: solid 4px rgba(255, 255, 255, 0.33);
+    display: block;
+    width: 523x;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 4px;
+    border-radius: 26px;
+}
+
+#searchBar {
+    width: 400px;
+    border-radius: 15px 0px 0px 15px;
+    height:50px;
+}
+
+#searchBar:active {
+    border-radius: 15px 0px 0px 15px;
+    border: none;
+
+}
+
+#searchButton {
+    border-radius: 0px 15px 15px 0px;
+    height: 50px;
+    margin-left: -5px;
+}
+
+#searchButton:active {
+    background: #ff2C7A;
+    border: solid 2px;
+}
+
+.quickStatsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    width:98vw;
+    margin-top:15px;
+}
+
+#imdbContainer {
+    max-width: 100px;
+    margin-right:15px;
+}
+
+#ratingContainer {
+    max-width: 100px;
+
+}
+
+.mainMovieImage{
+    max-width:90vw;
+}
+
+
+#trendingBox{
+    background-color:#444444;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size:0.9em;
+}
+
+
+
+
+
+
+/* MOBILE */
+@media only screen and (max-width: 600px) {
+
+    #searchBar {
+        border: solid 2px rgb(42, 42, 37, 0.9);
+        color: #2a2a25;
+        border-radius: 20px 0px 0px 20px;
+        padding: 15px;
+        width: 70%;
+    }
+
+    #searchButton {
+        background: rgb(42 42 37 / 71%);
+        border-radius: 0px 16px 16px 0px;
+        padding: 12px;
+        color: white;
+        width: 80px;
+        border: none;
+        opacity: 0.9;
+    }
+
+    #searchButton:active {
+        background: #ff2C7A;
+        border: solid 2px;
+    }
+
+    form {
+        border: solid 4px rgba(255, 255, 255, 0.43);
+        display: block;
+        width: 79%;
+        margin: 0 auto;
+        margin-top: -9px;
+        padding: 4px 2px 4px 2px;
+        border-radius: 26px;
+        margin-bottom:20px;
+    }
+
+    .bottomFooterLogo {
+        max-width: 200px;
+    }
+
+    p.heading2 {
+        font-size: 40px;
+    }
+}
+
+.headerContainer {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+header {
+    padding: 0px !important;
+    width: 100%;
+    margin: 0px;
+}
+
+.headerGradient {
+    background: #FF005B;
+    background: -webkit-radial-gradient(bottom, #FF005B, #A90545);
+    background: -moz-radial-gradient(bottom, #FF005B, #A90545);
+    background: radial-gradient(to top, #FF005B, #A90545);
+}

@@ -16,11 +16,13 @@
     </div>
 
     <br /><br />
-    Last updated on August 8, 2021<br />
-    &copy; 2021 Obi Nwokogba
+    Last updated on August 10, 2021<br />
+    &copy; 2021 Obi Nwokogba<br /><br />
+    <a href="<?php echo $javascriptpad; ?>">A work in progress:<br /> Javascript Cheat Sheet</a>
 </div>
 </div>
 
+<script>hljs.highlightAll();</script>
 
 <!-- Statcounter code -->
 <script type="text/javascript">

@@ -13,12 +13,11 @@
 
    <link href="css/normalize.min.css" rel="stylesheet" />
    <link rel="stylesheet" href="css/google-light.min.css">
-   <!-- <script src="js/highlight.min.js"></script>
-      <script src="js/jquery.fancybox.min.js"></script>
-      <script src="js/clipboard.min.js"></script> -->
+   <script src="js/highlight.min.js"></script>
+
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css"> -->
 
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
-
 
    <link href="css/all.css" rel="stylesheet">
    <link href="https://fonts.gstatic.com" rel="preconnect">

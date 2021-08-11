@@ -2,6 +2,7 @@
     --darkest-color: #05222F;
     --middark-color: #1777A4;
     --obilo-blue: #2781ff;
+    --logo-blue:#006DDC;
     --obilo-gold: #ffd213;
     --brand-purple: #7F3FEF;
     --midlight-color: #363636;
@@ -53,6 +54,7 @@ header {
 
 pre>code {
     font-family: mpluscode, "Sans Mono", "Consolas", "Courier", monospace;
+    border-left:solid 8px #8ED4FE;
 }
 
 .headerlogo {
@@ -468,10 +470,29 @@ span.colorboxheader {
 }
 
 span.pageheader {
+    display:block;
     font-weight: 300;
-    color: #b2b2b2;
-    font-size: 2.6em;
+    color: #989898;
+    font-size: 2.5em;
     margin-top: 20px;
+}
+
+span.pageheader2 {
+    display:block;
+    font-weight: 300;
+    color: #6b6b6b;
+    border-bottom:solid 2px rgb(161, 161, 161);
+    font-size: 2.1em;
+    margin-top: 25px;
+}
+
+span.pageheader3 {
+    display:block;
+    font-weight: 700;
+    color: var(--logo-blue);
+    border-bottom:dotted 2px rgb(205, 205, 205);
+    font-size: 1.3em;
+    margin-top: 15px;
 }
 
 .parallaxsubtitle {
@@ -511,14 +532,13 @@ span.pageheader {
 
 span.explanationabovecodeblock {
     display: block;
-    font-size: 1.1em;
+    font-size: 1em;
     color: #333;
     font-weight: 300;
-    margin-top: 40px;
-    border-top: solid 3px #FFCC33;
+    margin-top: 10px;
     padding: 10px;
     padding-left: 0px;
-    margin-bottom: -25px;
+    margin-bottom: -20px;
 }
 
 /* FIRST BREAKPOINT */
