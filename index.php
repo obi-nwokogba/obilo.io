@@ -53,7 +53,10 @@ require_once "universal_navigation.php"; ?>
 
          <div class="panelboxcontent">
             <p class="projectdescription">
-               A versatile color explorer and finder for shades, tints, variants. A great tool for web designers and graphic designers. <span class="technologiesused">Made with Javascript, jQuery, HTML5, CSS3</span>
+               A versatile color explorer and finder for shades, tints, variants. A great tool for web designers and graphic designers. 
+
+               <span class="technologiesused">Made with Javascript, jQuery, HTML5, CSS3</span>
+               <span class="technologiesused">Last updated on August 11, 2021</span>
 
                <span class="technologiesused">Screenshots:<br /></span>
 
@@ -96,10 +99,6 @@ require_once "universal_navigation.php"; ?>
             </p>
          </div>
       </div>
-
-
-
-
 
 
       <div class="panelbox">
@@ -254,12 +253,6 @@ require_once "universal_navigation.php"; ?>
             </p>
          </div>
       </div>
-
-
-
-
-
-
 
 
       <div class="panelbox">

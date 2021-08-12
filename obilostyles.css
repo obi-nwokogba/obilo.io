@@ -40,7 +40,7 @@ a.hover {
 body {
     color: var(--darkest-color);
     font-family: 'Manrope', helvetica, helvetica neue, Segoe UI, sans-serif;
-    font-weight: 100 !important;
+    font-weight: 200 !important;
     background: #fbfbfb;
     color: var(--generaltextcolor);
     text-align: left;
@@ -53,7 +53,7 @@ header {
 }
 
 pre>code {
-    font-family: mpluscode, "Sans Mono", "Consolas", "Courier", monospace;
+    font-family: 'Oxygen Mono', monospace;
     border-left:solid 8px #8ED4FE;
 }
 
@@ -480,10 +480,11 @@ span.pageheader {
 span.pageheader2 {
     display:block;
     font-weight: 300;
-    color: #6b6b6b;
-    border-bottom:solid 2px rgb(161, 161, 161);
-    font-size: 2.1em;
-    margin-top: 25px;
+    color: #8e8e8e;
+    border-bottom:solid 3px rgba(197, 197, 197, 0.542);
+    font-size: 2.2em;
+    margin-top: 45px;
+    text-align: center;
 }
 
 span.pageheader3 {
@@ -493,6 +494,21 @@ span.pageheader3 {
     border-bottom:dotted 2px rgb(205, 205, 205);
     font-size: 1.3em;
     margin-top: 15px;
+    font-family: 'Oxygen Mono', monospace;
+}
+
+.subjectminiheader{
+    background-color:var( --obilo-gold);
+    color:black;
+    border-radius:5px;
+    font-size:0.6em;
+    font-weight:500;
+    padding:5px;
+    text-transform:uppercase;
+    letter-spacing: 0.4rem;
+    margin-top:30px;
+    margin-bottom:-7px;
+    display:inline-block;
 }
 
 .parallaxsubtitle {
@@ -532,13 +548,14 @@ span.pageheader3 {
 
 span.explanationabovecodeblock {
     display: block;
-    font-size: 1em;
+    font-size: 1.05em;
     color: #333;
     font-weight: 300;
     margin-top: 10px;
     padding: 10px;
     padding-left: 0px;
     margin-bottom: -20px;
+    line-height:1.2em;
 }
 
 /* FIRST BREAKPOINT */
